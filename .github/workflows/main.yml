@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>India's AQI Map</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: aliceblue;
+        }
+
+        /* Make the page 700px wide, centered */
+        .container {
+            width: 700px;
+            margin: 4em auto;
+        }
+
+        /* Use a nice font */
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin: 2em 0;
+        }
+
+        .graphic {
+            max-width: 500px;
+            margin: 2em auto;
+        }
+
+        #footer {
+            text-align: center;
+            padding: 4em;
+            background-color: #f0f1ff;
+            👨🏽‍💻 border-top: solid white 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> How much do representatives in your state care about AI?</h1>
+        <h3>An analysis of all AI-related bills proposed in Congress, divided by state</h3>
+        <p>This database was created by scraping the Congress website and the Lobbying Disclosure API</p>
+        <div class="graphic">
+            <iframe title="California far outnumbers other states in proposing AI-related bills" aria-label="Map"
+                id="datawrapper-chart-MZ8OP" src="https://datawrapper.dwcdn.net/MZ8OP/2/" scrolling="no" frameborder="0"
+                style="width: 0; min-width: 100% !important; border: none;" height="536" data-external="1"></iframe>
+            <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+            </script>
+        </div>
+        <div class="graphic">
+            <iframe title="Popular companies: Number of bills they have lobbied for " aria-label="Column Chart"
+                id="datawrapper-chart-zVDzw" src="https://datawrapper.dwcdn.net/zVDzw/1/" scrolling="no" frameborder="0"
+                style="border: none;" width="600" height="575" data-external="1"></iframe>
+        </div>
+        <div class="graphic">
+            <iframe title="7 out of 10 top sponsors of AI-related bills are Democrats " aria-label="Bar Chart"
+                id="datawrapper-chart-5O9lS" src="https://datawrapper.dwcdn.net/5O9lS/1/" scrolling="no" frameborder="0"
+                style="border: none;" width="600" height="361" data-external="1"></iframe>
+        </div>
+        <div class="graphic">
+            <iframe title="63% AI-related bills in Congress were proposed by Democrats" aria-label="Pie Chart"
+                id="datawrapper-chart-Ln05c" src="https://datawrapper.dwcdn.net/Ln05c/1/" scrolling="no" frameborder="0"
+                style="border: none;" width="600" height="616" data-external="1"></iframe>
+        </div>
+    </div>
+
+    </div>
+    </div>
